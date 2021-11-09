@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.firstSection {
+    background-color: #663399;
+}
+
+.secondSection {
+    background-color: #339933;
+}
+
+.first-btn {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #eedd49;
+}
+
+.second-btn {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    background-color: rgb(90, 209, 218);
+}
+
+.third-btn {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-color: #ff9100;
+}
